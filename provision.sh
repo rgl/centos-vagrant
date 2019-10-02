@@ -45,6 +45,9 @@ else
 yum install -y qemu-guest-agent spice-vdagent
 fi
 
+# install the nfs client to support nfs synced folders in vagrant.
+yum install -y nfs-utils
+
 # disable the DNS reverse lookup on the SSH server. this stops it from
 # trying to resolve the client IP address into a DNS domain name, which
 # is kinda slow and does not normally work when running inside VB.
