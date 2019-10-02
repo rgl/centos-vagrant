@@ -1,9 +1,9 @@
 {
   "variables": {
     "disk_size": "61440",
-    "version": "7",
-    "iso_url": "http://mirror.fccn.pt/repos/pub/CentOS/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1708.iso",
-    "iso_checksum": "fe3d960cce4d2c1c9f1b66817fe87cc0ee1a1c6c5dd126204cb5c33d51a45620",
+    "version": "8",
+    "iso_url": "http://mirror.fccn.pt/repos/pub/CentOS/8.0.1905/isos/x86_64/CentOS-8-x86_64-1905-boot.iso",
+    "iso_checksum": "a7993a0d4b7fef2433e0d4f53530b63c715d3aadbe91f152ee5c3621139a2cbc",
     "iso_checksum_type": "sha256",
     "ks": "ks.cfg"
   },

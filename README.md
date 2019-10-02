@@ -1,6 +1,6 @@
 This builds an up-to-date Vagrant CentOS Base Box.
 
-Currently this targets [CentOS](https://www.centos.org/) 7.
+Currently this targets [CentOS](https://www.centos.org/) 8.
 
 
 # Usage
@@ -59,9 +59,8 @@ its location in the `inst.ks` kernel command line argument.
 
 # Reference
 
-* [Anaconda boot options](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/chap-anaconda-boot-options.html)
+* [Boot options](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_an_advanced_rhel_installation/kickstart-and-advanced-boot-options_installing-rhel-as-an-experienced-user)
 * [Kickstart manual](http://pykickstart.readthedocs.io/en/latest/kickstart-docs.html)
-* [Kickstart options](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/sect-kickstart-syntax.html)
-* [Kickstart installations](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/chap-kickstart-installations.html)
+* [Kickstart installations](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_an_advanced_rhel_installation/kickstart-installation-basics_installing-rhel-as-an-experienced-user)
 * [Mirror list](https://www.centos.org/download/mirrors/)
 * [Standard CentOS cloud image sources](https://github.com/CentOS/sig-cloud-instance-build)
