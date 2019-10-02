@@ -10,11 +10,9 @@ yum remove -y linux-firmware
 # make sure we cannot directly login as root.
 usermod --lock root
 
-# let our user use root permissions without sudo asking for a password.
-groupadd -r admin
-usermod -a -G admin vagrant
-echo '%admin ALL=(ALL) NOPASSWD:ALL' >/etc/sudoers.d/admin
-chmod 440 /etc/sudoers.d/admin
+# let all wheel users use root permissions without sudo asking for a password.
+echo '%wheel ALL=(ALL) NOPASSWD:ALL' >/etc/sudoers.d/wheel
+chmod 440 /etc/sudoers.d/wheel
 
 # install the vagrant public key.
 # NB vagrant will replace it on the first run.
