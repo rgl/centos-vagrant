@@ -17,6 +17,7 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.provision 'shell', inline: 'cat /etc/os-release'
+  config.vm.provision 'shell', inline: 'echo "machine-id is $(cat /etc/machine-id)"'
   config.vm.provision 'shell', inline: 'lsblk -o KNAME,SIZE,TRAN,FSTYPE,UUID,LABEL,MODEL,SERIAL'
   config.vm.provision 'shell', inline: 'df -h'
 end
